@@ -72,7 +72,7 @@ h1 {
   padding-bottom: 80px;
 }
 
-.port-h1 {
+.light-h1 {
   color: rgb(240, 238, 218);
   font-family: 'Rubik', sans-serif;
   text-align: left;
@@ -111,17 +111,37 @@ h1 {
   color: white;
 }
 
-.edu-1 {
-  background-color: rgb(36, 39, 36);
-  height: auto;
-}
-
-.edu-h1 {
-  color: rgb(240, 238, 218);
+.dark-h1 {
+  color: rgb(36, 39, 36);
   font-family: 'Rubik', sans-serif;
   text-align: left;
   margin-left: 20%;
-  padding-top: 60px;
+  padding: 60px 0 20px;
+}
+
+.tech1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  align-items: center;
+}
+
+.logo {
+  width: 16%;
+  max-width: 100px;
+  height: auto;
+}
+
+.edu-1 {
+  background-color: rgb(36, 39, 36);
+  height: auto;
 }
 
 .edu-2 {
@@ -165,7 +185,7 @@ hr {
 .footer {
   display: flex;
   flex-direction: column;
-  padding: 80px 0;
+  padding: 80px 0 40px;
   background-color: rgb(213, 248, 218);
 }
 
@@ -217,6 +237,7 @@ hr {
     grid-column: 2;
     grid-row: 2;
   }
+
 }
 
 @media (max-width: 830px) {
@@ -270,6 +291,11 @@ hr {
   .portfolio-2d {
     grid-column: 1;
     grid-row: 4;
+  }
+
+  .tech2 {
+    width: 100%;
+    padding: 0 40px;
   }
 
 }
