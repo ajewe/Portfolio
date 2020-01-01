@@ -1,0 +1,208 @@
+.div1 {
+  height: 100%;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.267),
+      rgba(0, 0, 0, 0.267)
+    ),
+    url(./media/remi-walle-Ui3bOgnjtl0-unsplash.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  font-family: 'Gelasio', serif;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.596);
+}
+
+.nav-item.nav-link.navbar-tpright.active {
+  color: rgb(140, 221, 151);
+}
+
+.div1-1 {
+  height: 80%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.main-text {
+  color: white;
+  padding: 10px 0 0 80px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 60px;
+  grid-row: 2;
+  grid-column: 2;
+  text-shadow: 2px 2px rgba(200, 218, 202, 0.575);
+}
+
+#mainimg {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.about-1 {
+  padding: 80px;
+}
+
+.about-2 {
+  margin: 0 auto;
+  width: 800px;
+  padding: 40px;
+}
+
+.aboutp {
+  margin-top: 40px;
+  text-align: center;
+  /* width: 300px; */
+}
+
+.portfolio {
+  background-color: rgb(36, 39, 36);
+  height: auto;
+}
+
+.port-h1 {
+  color: rgb(240, 238, 218);
+  font-family: 'Rubik', sans-serif;
+  text-align: left;
+  margin-left: 20%;
+  padding: 60px 0;
+}
+
+.portfolio-1 {
+  padding: 0 1rem 20px 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.portfolio-2a {
+  grid-column: 1;
+}
+
+.portfolio-2b {
+  grid-column: 2;
+}
+
+.portfolio-2c {
+  grid-column: 3;
+}
+
+.portfolio-2d {
+  grid-column: 4;
+}
+
+.port-title {
+  color: white;
+}
+
+.edu-1 {
+  background-color: rgb(36, 39, 36);
+  height: auto;
+}
+
+.edu-h1 {
+  color: rgb(240, 238, 218);
+  font-family: 'Rubik', sans-serif;
+  text-align: left;
+  margin-left: 20%;
+  padding-top: 60px;
+}
+
+.edu-2 {
+  padding: 40px 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.degree {
+  display: inline;
+  font-family: 'Rubik', sans-serif;
+  padding-right: 40px;
+  color: rgb(247, 246, 239);
+  font-size: 25px;
+}
+
+h3 {
+  display: inline;
+  font-family: 'Rubik', sans-serif;
+  float: right;
+  color: rgb(247, 246, 239);
+  font-size: 20px;
+}
+
+.school {
+  padding: 20px 0;
+  color: rgba(247, 246, 239, 0.452);
+}
+
+hr {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.452);
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+/* @media (min-width: 576px) {
+
+} */
+
+@media (max-width: 1160px) {
+  
+  #mainimg {
+    height: 100%;
+    width: auto;
+  }
+
+  .portfolio-1 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .portfolio-2a {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .portfolio-2b {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .portfolio-2c {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .portfolio-2d {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 830px) {
+  .div1-1 {
+    display: block;
+  }
+
+  .main-text {
+    margin-top: 40%;
+  }
+
+  .about-2 {
+    width: auto;
+  }
+
+  .edu-2 {
+    width: 100%;
+    padding: 40px;
+  }
+}
