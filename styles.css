@@ -17,6 +17,18 @@
   text-shadow: 1px 1px rgba(0, 0, 0, 0.596);
 }
 
+.logo-BG {
+  background-color: blue;
+  width: auto;
+}
+
+.navbar-light .navbar-brand {
+  /* background-color: pink; */
+  color: transparent;
+  text-shadow: none;
+  background-image: url(./media/128px-HTML5_logo_and_wordmark.svg.png)
+}
+
 .nav-item.nav-link.navbar-tpright.active {
   color: rgb(140, 221, 151);
 }
