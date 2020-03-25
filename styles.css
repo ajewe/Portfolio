@@ -99,30 +99,51 @@ h1 {
 .card {
   width: auto;
   color: black;
+  border-radius: 0px;
+  box-shadow: 3px 5px 5px rgb(167, 167, 167);
 }
 
 .card:hover {
   text-decoration: none;
+  color: black;
 }
 
 .card-img-top {
-  height: auto;
+  height: 230px;
+  background-size: cover;
+  background-position: center;
 }
 
 .portfolio-2a {
   grid-column: 1;
 }
 
+.c-img-1 {
+  background-image: url(./media/SampleDash.png);
+}
+
 .portfolio-2b {
   grid-column: 2;
+}
+
+.c-img-2 {
+  background-image: url(./media/TTT.png);
 }
 
 .portfolio-2c {
   grid-column: 3;
 }
 
+.c-img-3 {
+  background-image: url(./media/Quacks.png);
+}
+
 .portfolio-2d {
   grid-column: 4;
+}
+
+.c-img-4 {
+  background-image: url(./media/css-grids.png);
 }
 
 .port-title {
