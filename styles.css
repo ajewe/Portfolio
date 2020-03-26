@@ -14,20 +14,26 @@
   background-color: rgba(255, 255, 255, .15);  
   backdrop-filter: blur(5px);
   font-family: 'Gelasio', serif;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.596);
 }
 
 .logo-BG {
-  /* may get rid of this */
-  width: auto;
+  letter-spacing: 3px;
 }
 
 .navbar-light .navbar-brand {
   color: white;
 }
 
+.navbar-nav {
+  margin-right: 20px;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
 .nav-item.nav-link.navbar-tpright.active {
-  color: rgb(140, 221, 151);
+  color: rgb(232, 240, 233);
 }
 
 .div1-1 {
@@ -247,6 +253,12 @@ hr {
 .btn-outline-secondary {
   width: 100px;
   box-shadow: 4px 6px #888888;
+}
+
+.fa-codepen {
+  color: black;
+  font-size: 26px;
+  padding: 20px;
 }
 
 @media (max-width: 1160px) {
