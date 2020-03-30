@@ -255,10 +255,10 @@ hr {
   box-shadow: 4px 6px #888888;
 }
 
-.fa-codepen {
+.fa-icon {
   color: black;
   font-size: 26px;
-  padding: 20px;
+  padding: 10px;
 }
 
 @media (max-width: 1160px) {
