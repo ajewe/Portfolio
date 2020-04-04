@@ -27,7 +27,7 @@
 }
 
 .navbar-brand:hover {
-  background-image: url(https://media.giphy.com/media/3oz8xZO0f7owzXcMdG/source.gif);
+  background-image: url(https://media.giphy.com/media/26FL7OPVJqJ6d3eLK/giphy.gif);
   -webkit-text-fill-color:transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -159,6 +159,14 @@ h1 {
 
 .c-img-4 {
   background-image: url(./media/css-grids.png);
+}
+
+.c-img-5 {
+  background-image: url(./media/checkers.png);
+}
+
+.c-img-6 {
+  background-image: url(./media/mastermind.png);
 }
 
 .port-title {
