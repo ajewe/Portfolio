@@ -77,15 +77,20 @@ h1 {
 }
 
 .about-2 {
-  margin: 0 auto;
-  width: 800px;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .aboutp {
-  margin-top: 40px;
   text-align: center;
-  /* width: 300px; */
+  width: 550px;
+}
+
+.sign {
+  width: 180px;
+  padding-top: 40px;
 }
 
 .portfolio {
@@ -326,6 +331,10 @@ hr {
 }
 
 @media (max-width: 830px) {
+  .aboutp {
+    width: 300px;
+  }
+
   .div1-1 {
     display: block;
   }
@@ -400,7 +409,6 @@ hr {
 }
 
 @media (max-width: 576px) {
-
 
   .tech2 {
     width: 70%;
