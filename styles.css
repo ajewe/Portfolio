@@ -6,24 +6,26 @@
       rgba(0, 0, 0, 0.267),
       rgba(0, 0, 0, 0.267)
     ),
-    url(./media/remi-walle-Ui3bOgnjtl0-unsplash.jpg);
+    url(./media/background-blur-bokeh-close-up-1044990.jpg);
   background-size: cover;
 }
 
 .navbar {
-  background-color: rgba(255, 255, 255, .15);  
+  background-color: rgba(255, 255, 255, 0.068);  
   backdrop-filter: blur(5px);
-  font-family: 'Gelasio', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .logo-BG {
-  letter-spacing: 3px;
+  letter-spacing: 10px;
 }
 
 .navbar-light .navbar-brand {
   color: white;
   font-family: 'Permanent Marker', cursive;
   font-size: 26px;
+  cursor: pointer;
 }
 
 .navbar-brand:hover {
@@ -55,8 +57,8 @@
 .main-text {
   color: white;
   padding: 10px 0 0 80px;
-  font-family: 'Rubik', sans-serif;
-  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
   grid-row: 2;
   grid-column: 2;
   text-shadow: 2px 2px rgba(200, 218, 202, 0.575);
@@ -102,7 +104,7 @@ h1 {
 }
 
 .light-h1 {
-  color: rgb(213, 248, 218);
+  color: rgb(255, 255, 255);
   font-family: 'Rubik', sans-serif;
   text-align: left;
   margin-left: 20%;
@@ -118,14 +120,34 @@ h1 {
 
 .card {
   width: auto;
+  height: 100%;
   color: black;
   border-radius: 0px;
-  box-shadow: 3px 5px 5px rgb(167, 167, 167);
+  box-shadow: 3px 5px 5px #a7a7a7;
+  transition: 0.3s ease;
 }
 
-.card:hover {
+.p-link {
+  color: white;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.p-link-container {
+  position: relative;
+  top: -50%;
+  left: 30%;
+  z-index: 2;
+}
+
+.p-container:hover .card {
   text-decoration: none;
   color: black;
+  opacity: 0.3;
+}
+
+.p-container:hover .p-link {
+  opacity: 1;
 }
 
 .card-img-top {
@@ -134,36 +156,40 @@ h1 {
   background-position: center;
 }
 
-.portfolio-2a {
-  grid-column: 1;
+.card-body {
+  height: 160px;
 }
 
-.c-img-1 {
-  background-image: url(./media/SampleDash.png);
+.portfolio-2a {
+  grid-column: 1;
 }
 
 .portfolio-2b {
   grid-column: 2;
 }
 
-.c-img-2 {
-  background-image: url(./media/TTT.png);
-}
-
 .portfolio-2c {
   grid-column: 3;
-}
-
-.c-img-3 {
-  background-image: url(./media/Quacks.png);
 }
 
 .portfolio-2d {
   grid-column: 4;
 }
 
+.c-img-1 {
+  background-image: url(./media/react-todo.png);
+}
+
+.c-img-2 {
+  background-image: url(./media/TTT.png);
+}
+
+.c-img-3 {
+  background-image: url(./media/Quacks.png);
+}
+
 .c-img-4 {
-  background-image: url(./media/css-grids.png);
+  background-image: url(./media/SampleDash.png);
 }
 
 .c-img-5 {
@@ -172,6 +198,14 @@ h1 {
 
 .c-img-6 {
   background-image: url(./media/mastermind.png);
+}
+
+.c-img-7 {
+  
+}
+
+.c-img-8 {
+  background-image: url(./media/css-grids.png);
 }
 
 .port-title {
@@ -269,12 +303,21 @@ hr {
   display: flex;
   flex-direction: column;
   padding: 80px 0 40px;
-  background-color: rgb(213, 248, 218);
+  background: 
+  linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);;
 }
 
 .btn-outline-secondary {
   width: 100px;
-  box-shadow: 4px 6px #888888;
+  box-shadow: 4px 6px 5px #383838b4;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.356);
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgb(36,39,35);
 }
 
 .fa-icon {
