@@ -129,15 +129,19 @@ h1 {
 
 .p-link {
   color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+
   opacity: 0;
   transition: 0.3s ease;
 }
 
 .p-link-container {
   position: relative;
-  top: -50%;
-  left: 30%;
+  text-align: center;
+  top: -60%;
   z-index: 2;
+  height: 0px;
 }
 
 .p-container:hover .card {
@@ -148,6 +152,12 @@ h1 {
 
 .p-container:hover .p-link {
   opacity: 1;
+}
+
+
+.p-link:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .card-img-top {
